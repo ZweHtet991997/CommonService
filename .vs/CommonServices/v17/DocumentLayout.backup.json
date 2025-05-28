@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|c:\\myprojects\\microservice_projects\\nkcommonservices\\commonservices\\commonservices\\commonservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|solutionrelative:commonservices\\commonservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|c:\\myprojects\\microservice_projects\\nkcommonservices\\commonservices\\commonservices\\service helpers\\email\\mailtypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|solutionrelative:commonservices\\service helpers\\email\\mailtypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|c:\\myprojects\\microservice_projects\\nkcommonservices\\commonservices\\commonservices\\controllers\\service controllers\\email_controller\\emailservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|solutionrelative:commonservices\\controllers\\service controllers\\email_controller\\emailservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|c:\\myprojects\\microservice_projects\\nkcommonservices\\commonservices\\commonservices\\services\\account_vertification_service\\vertificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|solutionrelative:commonservices\\services\\account_vertification_service\\vertificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|c:\\myprojects\\microservice_projects\\nkcommonservices\\commonservices\\commonservices\\controllers\\service controllers\\password_policy_controller\\passwordpolicyservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|solutionrelative:commonservices\\controllers\\service controllers\\password_policy_controller\\passwordpolicyservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|c:\\myprojects\\microservice_projects\\nkcommonservices\\commonservices\\commonservices\\services\\password_policy_service\\passwordpolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953A52F0-DC13-49BC-8975-BC2CDBF78F7C}|CommonServices\\CommonServices.csproj|solutionrelative:commonservices\\services\\password_policy_service\\passwordpolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PasswordPolicyService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Services\\Password_Policy_Service\\PasswordPolicyService.cs",
+              "RelativeDocumentMoniker": "CommonServices\\Services\\Password_Policy_Service\\PasswordPolicyService.cs",
+              "ToolTip": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Services\\Password_Policy_Service\\PasswordPolicyService.cs",
+              "RelativeToolTip": "CommonServices\\Services\\Password_Policy_Service\\PasswordPolicyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:59:50.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommonServices.csproj",
+              "DocumentMoniker": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\CommonServices.csproj",
+              "RelativeDocumentMoniker": "CommonServices\\CommonServices.csproj",
+              "ToolTip": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\CommonServices.csproj",
+              "RelativeToolTip": "CommonServices\\CommonServices.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T05:53:04.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MailTypeMapper.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Service Helpers\\Email\\MailTypeMapper.cs",
+              "RelativeDocumentMoniker": "CommonServices\\Service Helpers\\Email\\MailTypeMapper.cs",
+              "ToolTip": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Service Helpers\\Email\\MailTypeMapper.cs",
+              "RelativeToolTip": "CommonServices\\Service Helpers\\Email\\MailTypeMapper.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:44:32.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VertificationService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Services\\Account_Vertification_Service\\VertificationService.cs",
+              "RelativeDocumentMoniker": "CommonServices\\Services\\Account_Vertification_Service\\VertificationService.cs",
+              "ToolTip": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Services\\Account_Vertification_Service\\VertificationService.cs",
+              "RelativeToolTip": "CommonServices\\Services\\Account_Vertification_Service\\VertificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:41:23.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordPolicyServiceController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Controllers\\Service Controllers\\Password_Policy_Controller\\PasswordPolicyServiceController.cs",
+              "RelativeDocumentMoniker": "CommonServices\\Controllers\\Service Controllers\\Password_Policy_Controller\\PasswordPolicyServiceController.cs",
+              "ToolTip": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Controllers\\Service Controllers\\Password_Policy_Controller\\PasswordPolicyServiceController.cs",
+              "RelativeToolTip": "CommonServices\\Controllers\\Service Controllers\\Password_Policy_Controller\\PasswordPolicyServiceController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:32:01.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailServiceController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Controllers\\Service Controllers\\Email_Controller\\EmailServiceController.cs",
+              "RelativeDocumentMoniker": "CommonServices\\Controllers\\Service Controllers\\Email_Controller\\EmailServiceController.cs",
+              "ToolTip": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\Controllers\\Service Controllers\\Email_Controller\\EmailServiceController.cs",
+              "RelativeToolTip": "CommonServices\\Controllers\\Service Controllers\\Email_Controller\\EmailServiceController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:31:07.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

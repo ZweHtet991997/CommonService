@@ -1,0 +1,9 @@
+﻿global using CommonServices.Configs;
+global using CommonServices.Models.EmailModel;
+global using FluentEmail.Core;
+global using CommonServices.Service_Helpers.Email;
+global using CommonServices.Services.Common_Service;
+global using CommonServices.Services.Account_Vertification_Service;
+global using CommonServices.Services.Email_Service;
+global using FluentFTP;
+global using System.Net;

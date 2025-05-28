@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\MyProjects\Microservice_Projects\NKCommonServices\Publish</_PublishTargetUrl>
+    <History>True|2025-04-02T03:33:26.0637244Z||;True|2025-03-30T12:24:03.9209292+06:30||;True|2025-02-11T10:09:43.5904442+06:30||;True|2025-01-22T21:18:22.4420249+06:30||;True|2025-01-22T21:17:47.9167980+06:30||;True|2025-01-08T21:56:28.8086310+06:30||;True|2025-01-05T20:58:28.7153362+06:30||;True|2024-12-31T21:44:37.6657959+06:30||;True|2024-11-18T14:33:05.9033237+06:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

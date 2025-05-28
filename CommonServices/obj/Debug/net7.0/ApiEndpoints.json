@@ -1,0 +1,405 @@
+[
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Dynamic_CRUD_Controller.DynamicCRUDController",
+    "Method": "CreateDataAsync",
+    "RelativePath": "service/create-data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Dynamic_CRUD_Controller.DynamicCRUDController",
+    "Method": "HardDeleteDataAsync",
+    "RelativePath": "service/delete-data",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Email_Controller.EmailServiceController",
+    "Method": "SendMail",
+    "RelativePath": "service/email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonServices.Models.EmailModel.MailRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.EncryptDecrypt_Controller.EncryptDecryptServiceController",
+    "Method": "Encryption",
+    "RelativePath": "service/encrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plainText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Dynamic_CRUD_Controller.DynamicCRUDController",
+    "Method": "FilterDataAsync",
+    "RelativePath": "service/filter-data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.FTP_Controller.FTPServiceController",
+    "Method": "UploadFile",
+    "RelativePath": "service/ftp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProjectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DirectoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilePropertyModel",
+        "Type": "System.Collections.Generic.List\u00601[[CommonServices.Models.FTPModel.FilePropertyModel, CommonServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTPConfig.Host",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTPConfig.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTPConfig.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.FTP_Controller.FTPServiceController",
+    "Method": "DeleteFolder",
+    "RelativePath": "service/ftp/dir",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonServices.Models.FTPModel.FTPDeleteRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.FTP_Controller.FTPServiceController",
+    "Method": "DeleteFile",
+    "RelativePath": "service/ftp/file",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonServices.Models.FTPModel.FTPDeleteRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.FTP_Controller.FTPServiceController",
+    "Method": "UploadFile_V1",
+    "RelativePath": "service/ftp/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProjectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DirectoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTPConfig.Host",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTPConfig.UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FTPConfig.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Dynamic_CRUD_Controller.DynamicCRUDController",
+    "Method": "GetDataListAsync",
+    "RelativePath": "service/get-datalist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Email_Controller.EmailServiceController",
+    "Method": "GetOTP",
+    "RelativePath": "service/getotp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Password_Policy_Controller.PasswordPolicyServiceController",
+    "Method": "CheckPasswordPolicy",
+    "RelativePath": "service/passwordpolicy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.FileRenameController.FileRenameController",
+    "Method": "FileRename",
+    "RelativePath": "service/rename",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Dynamic_CRUD_Controller.DynamicCRUDController",
+    "Method": "SoftDeleteDataAsync",
+    "RelativePath": "service/softdelete-data",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projecId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Dynamic_CRUD_Controller.DynamicCRUDController",
+    "Method": "UpdateDataAsync",
+    "RelativePath": "service/update-data",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Email_Controller.EmailServiceController",
+    "Method": "ValidateOTPCode",
+    "RelativePath": "service/validateotp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.Service_Controllers.Email_Controller.EmailServiceController",
+    "Method": "SendSuccessActivateMail",
+    "RelativePath": "service/validateotp/successmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonServices.Models.EmailModel.MailRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommonServices.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CommonServices.WeatherForecast, CommonServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "PtaSIyGpdbMwU5+kCJonC/fs21/M/WmfkMGSnM6iOzI=",
+  "Source": "CommonServices",
+  "BasePath": "_content/CommonServices",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CommonServices\\wwwroot",
+      "Source": "CommonServices",
+      "ContentRoot": "C:\\MyProjects\\Microservice_Projects\\NKCommonServices\\CommonServices\\CommonServices\\wwwroot\\",
+      "BasePath": "_content/CommonServices",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
