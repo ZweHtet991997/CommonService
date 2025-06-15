@@ -23,6 +23,11 @@ namespace CommonServices.Service_Helpers.Email
                             .AccountActivateTemplate(model.ProjectName,
                             _vertificationService.GenerateAndStoreCode(model.ToMail));
 
+                    case EnumMailType.ForgetPassword:
+                        return EmailTemplateResource
+                            .ForgetPasswordMailTemplate(model.ProjectName,
+                            _vertificationService.GenerateAndStoreCode(model.ToMail));
+
                     case EnumMailType.SuccessActivate:
                         string[] userName = model.ToMail.Split('@');
                         return EmailTemplateResource.SuccessActivateTemplate(model.ProjectName, userName[0]);

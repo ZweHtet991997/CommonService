@@ -3,6 +3,7 @@
     public enum EnumMailType
     {
         Activate,
+        ForgetPassword,
         SuccessActivate,
         ContactUs
     }

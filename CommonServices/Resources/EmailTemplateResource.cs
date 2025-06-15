@@ -65,7 +65,64 @@ $@"<body>
 ";
         }
 
-        private static string SuccessActivate(string projectName,string userName)
+        private static string ForgetPassword(string projectName, int code)
+        {
+            return @"<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=""UTF-8"">
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+  <title>Account Activation</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    h4{
+        font-size:22px;
+    }
+    .container {
+      background-color: #ffffff;
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #28a745;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>" +
+$@"<body>
+  <div class=""container"">
+    <h2>Password Reset</h2>
+    <p>Please use this code to reset the password for your account.</p>
+    <p>Please do not forward this email. If you didn't request this code, you can ignore this message.</p>
+    <p>The vertification code below is unique and will expire in next 5 minute.</p>
+    <h4><b>{code}</b></h4>
+    <p>Thank you,</p>
+    <p>{projectName}</p>
+  </div>
+</body>
+</html>
+";
+        }
+
+        private static string SuccessActivate(string projectName, string userName)
         {
             return @"<!DOCTYPE html>
 <html lang=""en"">
@@ -116,8 +173,12 @@ $@"<body>
 
         public static string AccountActivateTemplate(string projectName, int code)
             => AccountActivate(projectName, code);
-        public static string SuccessActivateTemplate(string projectName,string userName) 
-            => SuccessActivate(projectName,userName);
+
+        public static string ForgetPasswordMailTemplate(string projectName, int code)
+            => ForgetPassword(projectName, code);
+
+        public static string SuccessActivateTemplate(string projectName, string userName)
+            => SuccessActivate(projectName, userName);
         public static string ContactUsTemplate(string name,
             string phoneNo,
             string email,
